@@ -10,6 +10,7 @@ config_version=5
 
 [application]
 
-config/name="Space Invaders"
-config/features=PackedStringArray("4.4", "Forward Plus")
+config/name="Space Invaders Test Yay"
+run/main_scene="uid://cglmjj4xvm3ja"
+config/features=PackedStringArray("4.5", "Forward Plus")
 config/icon="res://icon.svg"

@@ -1,0 +1,20 @@
+[gd_scene load_steps=4 format=3 uid="uid://cual34vx3e8k7"]
+
+[ext_resource type="Script" uid="uid://dtq0ij7lf67tn" path="res://Alien.gd" id="1_qgse6"]
+[ext_resource type="Texture2D" uid="uid://baorod2hgjve4" path="res://Space-Invaders-Alien-PNG-Photo.png" id="2_u5v8j"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_qtl1n"]
+size = Vector2(40, 26)
+
+[node name="Alien" type="Node2D"]
+
+[node name="CharacterBody2D" type="CharacterBody2D" parent="."]
+script = ExtResource("1_qgse6")
+
+[node name="Sprite2D" type="Sprite2D" parent="CharacterBody2D"]
+scale = Vector2(0.0491872, 0.0491872)
+texture = ExtResource("2_u5v8j")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="CharacterBody2D"]
+position = Vector2(0, 1)
+shape = SubResource("RectangleShape2D_qtl1n")
