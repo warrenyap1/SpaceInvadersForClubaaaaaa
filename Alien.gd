@@ -17,4 +17,5 @@ func _physics_process(delta: float):
 		shootTimer = randf_range(0, 50)
 		
 func kill():
+	get_parent().remove_from_group("enemy")
 	queue_free()
