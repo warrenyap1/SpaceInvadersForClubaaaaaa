@@ -1,0 +1,29 @@
+[gd_scene format=3 uid="uid://c68whe34o4gde"]
+
+[node name="CanvasLayer" type="CanvasLayer"]
+visible = false
+
+[node name="ColorRect" type="ColorRect" parent="."]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -141.0
+offset_top = -75.0
+offset_right = 141.0
+offset_bottom = 75.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0, 0, 0, 1)
+
+[node name="Label" type="Label" parent="ColorRect"]
+layout_mode = 0
+offset_left = 63.0
+offset_top = 31.0
+offset_right = 217.0
+offset_bottom = 108.0
+text = "U WIN!!!"
+horizontal_alignment = 1
+vertical_alignment = 1
+uppercase = true
